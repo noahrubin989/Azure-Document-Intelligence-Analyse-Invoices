@@ -6,7 +6,7 @@ To demonstrate how to extract meaningful fields from an invoice using Microsoft 
 
 ## Solution
 
-This solution automates data entry from invoices. In the past, manual data entry was the only option because it was difficult for computers to recognise printed or hand-written text. Now, AI has become commonplace and has enabled computers to recognise patterns, such as letter shapes in a piece of text, with a high degree of accuracy. We can use AI as an alternative to manual data entry with lower costs and fewer errors in the extracted data.
+This solution automates data entry from invoices. In the past, manual data entry was the only option because it was difficult for computers to recognise printed or hand-written text. Now, AI can be used as an alternative to manual data entry with lower costs and tends to result in fewer errors in the extracted data.
 
 ## Python Environment Set-Up
 
