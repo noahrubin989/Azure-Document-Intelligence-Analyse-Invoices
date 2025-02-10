@@ -100,3 +100,6 @@ Upon running `poller.result()` you get an `azure.ai.formrecognizer._models.Analy
 * `from_dict`
 * `to_dict`
 
+## Resources
+[The `AnalyzeResult` Class](https://learn.microsoft.com/en-us/python/api/azure-ai-formrecognizer/azure.ai.formrecognizer.analyzeresult?view=azure-python)
+
