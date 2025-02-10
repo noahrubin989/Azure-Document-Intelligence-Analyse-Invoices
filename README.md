@@ -2,11 +2,14 @@
 
 ## Objective
 
-To demonstrate how to extract meaningful fields from an invoice using Microsoft Azure AI Document Intelligence. The sample invoice file has been fetched from [this URL](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence/blob/main/Labfiles/01-prebuild-models/sample-invoice/sample-invoice.pdf?raw=true)
+To demonstrate how to extract meaningful fields from an invoice using Microsoft Azure AI Document Intelligence.
 
 ## Solution
 
-This solution automates data entry from invoices. In the past, manual data entry was the only option because it was difficult for computers to recognise printed or hand-written text. Now, AI can be used as an alternative to manual data entry with lower costs and tends to result in fewer errors in the extracted data.
+This solution automates data entry from invoices. In the past, manual data entry was the only option because it was difficult for computers to recognise printed or hand-written text. Now, AI can be used as an alternative to manual data entry with lower costs and tends to result in fewer errors in the extracted data. 
+
+The sample invoice file has been fetched from [this URL](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence/blob/main/Labfiles/01-prebuild-models/sample-invoice/sample-invoice.pdf?raw=true)
+
 
 ## Python Environment Set-Up
 
