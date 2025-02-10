@@ -80,7 +80,8 @@ The purpose of prebuilt models is to extract the data you need without traininjg
   3. Store the details in a `.env` file for further use
 
 
-How the code works 
+### How the code works 
+
 Upon running `poller.result()` you get an `azure.ai.formrecognizer._models.AnalyzeResult` object with a few useful attributes and methods:
 
 **Attributes:** 
