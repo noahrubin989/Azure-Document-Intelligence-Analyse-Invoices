@@ -101,5 +101,7 @@ Upon running `poller.result()` you get an `azure.ai.formrecognizer._models.Analy
 * `to_dict`
 
 ## Resources
-[The `AnalyzeResult` Class](https://learn.microsoft.com/en-us/python/api/azure-ai-formrecognizer/azure.ai.formrecognizer.analyzeresult?view=azure-python)
+* [The `AnalyzeResult` Class](https://learn.microsoft.com/en-us/python/api/azure-ai-formrecognizer/azure.ai.formrecognizer.analyzeresult?view=azure-python)
+* [Document Intelligence invoice model](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/prebuilt/invoice?view=doc-intel-4.0.0)
+
 
