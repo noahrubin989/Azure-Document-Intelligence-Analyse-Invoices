@@ -2,7 +2,7 @@
 
 ## Objective
 
-To demonstrate how to extract meaningful fields from an invoice using Microsaoft Azure AI Document Intelligence. 
+To demonstrate how to extract meaningful fields from an invoice using Microsoft Azure AI Document Intelligence. 
 
 ## Solution
 
