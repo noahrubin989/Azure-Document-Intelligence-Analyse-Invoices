@@ -20,7 +20,7 @@ pip3 install pandas python-dotenv azure-ai-formrecognizer==3.3.3
 
 ### Create an Azure AI Document Intelligence resource:
   1. In the Azure portal, select **Create a resource**.
-  2. In the Search services and marketplace box, type Document Intelligence and then press Enter
+  2. In the Search services and marketplace box, type **Document Intelligence** and then press **Enter**
   3. In the Document intelligence page, select **Create**
   4. In the Create Document intelligence page, under **Project Details**, select your **Subscription** and either select an existing **Resource group** or create a new one
   5. Under **Instance details**, select a **Region** of your choice (given you are able to deploy to the resource to that region)
