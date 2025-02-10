@@ -20,7 +20,8 @@ In Azure AI Document Intelligence, three of the prebuilt models are for general 
   * It is ideal if you want to extract words and lines from documents with no fixed or predictable structure
  
   
-* General document: Use this model to extract key-value pairs and tables in your documents
+* General document:
+  * Use this model to extract key-value pairs and tables in your documents
   * The general document model extends the functionality of the read model by adding the detection of key-value pairs, entities, selection marks, and tables. The model can extract these values from structured, semi-structured, and unstructured documents.
   * It is the only prebuilt model to support entity extraction such as 
     * `Person`. The name of a person.
@@ -38,7 +39,16 @@ In Azure AI Document Intelligence, three of the prebuilt models are for general 
     * `DateTime`. Calendar dates and times of day.
     * `Quantity`. Numerical measurements with their units.
     
-* Layout: Use this model to extract text, tables, and structure information from forms. It can also recognize selection marks such as check boxes and radio buttons
+* Layout:
+  * Use this model to extract text, tables, and structure information from forms. It can also recognise selection marks such as check boxes and radio buttons
+  * As well as extracting text, the layout model returns selection marks and tables from the input image or PDF file. It's a good model to use when you need rich information about the structure of a document.
+  * When you digitise a document, it can be at an odd angle. Tables can have complicated structures with or without headers, cells that span columns or rows, and incomplete columns or rows. The layout model can handle all of these difficulties to extract the complete document structure.
+  * For example, each table cell is extracted with:
+    * Its content text.
+    * The size and position of its bounding box.
+    * If it's part of a header column.
+    * Indexes to indicate its row and column position in the table.
+  * Selection marks are extracted with their bounding box, a confidence indicator, and whether they're selected or not.
 
 The other prebuilt models expect a common type of form or document:
 
