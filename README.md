@@ -61,6 +61,15 @@ The other prebuilt models expect a common type of form or document:
 
 The purpose of prebuilt models is to extract the data you need without traininjg yoiur own models.
 
+## Python Environment Set-Up
+
+In an integrated terminal in Visual Studio Code, set up your own virtual environment. Once done, install the following packages:
+
+```python
+pip3 install pandas python-dotenv azure-ai-formrecognizer==3.3.3
+```
+
+
 
 ## Set Up
 
