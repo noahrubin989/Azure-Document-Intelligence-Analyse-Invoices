@@ -67,15 +67,35 @@ The purpose of prebuilt models is to extract the data you need without traininjg
 ### Create an Azure AI Document Intelligence resource:
   1. In the Azure portal, select Create a resource.
   2. In the Search services and marketplace box, type Document Intelligence and then press Enter
-  3. In the Document intelligence page, select Create
-  4. In the Create Document intelligence page, under Project Details, select your Subscription and either select an existing Resource group or create a new one
-  5. Under Instance details, select a Region near your users
-  6. In the Name textbox, type a unique name for the resource
-  7. Select a Pricing tier and then select Review + create
-  8. If the validation tests pass, select Create. Azure deploys the new Azure AI Document Intelligence resource
+  3. In the Document intelligence page, select **Create**
+  4. In the Create Document intelligence page, under **Project Details**, select your **Subscription** and either select an existing **Resource group** or create a new one
+  5. Under **Instance details**, select a **Region** of your choice (given you are able to deploy to the resource to that region)
+  6. In the **Name** textbox, type a unique name for the resource. I called mine `doc-intel-nr`
+  7. Select a **Pricing tier**. I used **Free FO** and then select Review + create
+  8. If the validation tests pass, select **Create**. Azure deploys the new Azure AI Document Intelligence resource
 
 ### Connect to the resource
   1. In the Azure portal, navigate to the Azure AI Document Intelligence resource
   2. Retrive the endpoint and access key
   3. Store the details in a `.env` file for further use
+
+
+How the code works 
+Upon running `poller.result()` you get an `azure.ai.formrecognizer._models.AnalyzeResult` object with a few useful attributes and methods:
+
+**Attributes:** 
+* `api_version`
+* `content`
+* `documents`
+* `languages`
+* `model_id`
+* `pages`
+* `paragraphs`
+* `styles`
+* `tables`
+* `key_value_pairs`
+
+**Methods:**
+* `from_dict`
+* `to_dict`
 
