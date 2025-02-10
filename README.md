@@ -34,7 +34,7 @@ pip3 install pandas python-dotenv azure-ai-formrecognizer==3.3.3
   3. Store the details in a `.env` file for further use
 
 
-### Running the Code
+## Running the Code
 
 In an integrated terminal in Visual Studio Code, run the following snippet
 
