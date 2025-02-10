@@ -8,7 +8,7 @@ Manual data entry is a slow and intensive task and can be expensive, especially 
 
 Manual data entry was the only option because it was difficult for computers to recognise printed or hand-written text. Now, AI has become commonplace and has enabled computers to recognise patterns, such as letter shapes in a piece of text, with a high degree of accuracy. We can use AI as an alternative to manual data entry with lower costs and fewer errors in the extracted data.
 
-Azure AI Document Intelligence is an Azure service that you can use to analyse forms completed by your customers, partners, employers, or others and extract the data that they contain.
+Azure AI Document Intelligence is an Azure service that you can use to analyse forms completed by your customers, partners, employers, or others and extract the data that they contain. It's built on the lower level Azure AI Services, including Azure AI Vision.
 
 In Azure AI Document Intelligence, three of the prebuilt models are for general document analysis:
 
