@@ -1,0 +1,105 @@
+[
+  {
+    "DocumentNumber": 1,
+    "AmountDue": {
+      "content": "$610.00",
+      "confidence": 0.949
+    },
+    "BillingAddress": {
+      "content": "123 Bill St,\nRedmond WA, 98052",
+      "confidence": 0.889
+    },
+    "BillingAddressRecipient": {
+      "content": "Microsoft Finance",
+      "confidence": 0.938
+    },
+    "CustomerAddress": {
+      "content": "123 Other St,\nRedmond WA, 98052",
+      "confidence": 0.888
+    },
+    "CustomerAddressRecipient": {
+      "content": "Microsoft Corp",
+      "confidence": 0.936
+    },
+    "CustomerId": {
+      "content": "CID-12345",
+      "confidence": 0.967
+    },
+    "CustomerName": {
+      "content": "MICROSOFT CORPORATION",
+      "confidence": 0.919
+    },
+    "DueDate": {
+      "content": "12/15/2019",
+      "confidence": 0.971
+    },
+    "InvoiceDate": {
+      "content": "11/15/2019",
+      "confidence": 0.971
+    },
+    "InvoiceId": {
+      "content": "INV-100",
+      "confidence": 0.971
+    },
+    "InvoiceTotal": {
+      "content": "$110.00",
+      "confidence": 0.969
+    },
+    "Items": {
+      "content": null,
+      "confidence": null
+    },
+    "PreviousUnpaidBalance": {
+      "content": "$500.00",
+      "confidence": 0.95
+    },
+    "PurchaseOrder": {
+      "content": "PO-3333",
+      "confidence": 0.967
+    },
+    "RemittanceAddress": {
+      "content": "123 Remit St\nNew York, NY, 10001",
+      "confidence": 0.887
+    },
+    "RemittanceAddressRecipient": {
+      "content": "Contoso Billing",
+      "confidence": 0.938
+    },
+    "ServiceAddress": {
+      "content": "123 Service St,\nRedmond WA, 98052",
+      "confidence": 0.888
+    },
+    "ServiceAddressRecipient": {
+      "content": "Microsoft Services",
+      "confidence": 0.936
+    },
+    "ShippingAddress": {
+      "content": "123 Ship St,\nRedmond WA, 98052",
+      "confidence": 0.888
+    },
+    "ShippingAddressRecipient": {
+      "content": "Microsoft Delivery",
+      "confidence": 0.937
+    },
+    "SubTotal": {
+      "content": "$100.00",
+      "confidence": 0.97
+    },
+    "TotalTax": {
+      "content": "$10.00",
+      "confidence": 0.97
+    },
+    "VendorAddress": {
+      "content": "123 456th St\nNew York, NY, 10001",
+      "confidence": 0.887
+    },
+    "VendorAddressRecipient": {
+      "content": "Contoso Headquarters",
+      "confidence": 0.938
+    },
+    "VendorName": {
+      "content": "CONTOSO LTD.",
+      "confidence": 0.937
+    }
+  }
+]
