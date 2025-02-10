@@ -2,7 +2,7 @@
 
 ## Objective
 
-To demonstrate how to extract meaningful fields from an invoice using Microsoft Azure AI Document Intelligence. 
+To demonstrate how to extract meaningful fields from an invoice using Microsoft Azure AI Document Intelligence. The sample invoice file has been fetched from [this URL](https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence/blob/main/Labfiles/01-prebuild-models/sample-invoice/sample-invoice.pdf?raw=true)
 
 ## Solution
 
