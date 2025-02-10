@@ -70,8 +70,7 @@ pip3 install pandas python-dotenv azure-ai-formrecognizer==3.3.3
 ```
 
 
-
-## Set Up
+## Azure Set-Up
 
 ### Create an Azure AI Document Intelligence resource:
   1. In the Azure portal, select Create a resource.
