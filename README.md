@@ -65,7 +65,7 @@ The purpose of prebuilt models is to extract the data you need without traininjg
 
 In an integrated terminal in Visual Studio Code, set up your own virtual environment. Once done, install the following packages:
 
-```python
+```bash
 pip3 install pandas python-dotenv azure-ai-formrecognizer==3.3.3
 ```
 
